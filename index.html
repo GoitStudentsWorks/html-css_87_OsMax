@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/html-css_87_OsMax/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh harvest box</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <script type="module" crossorigin src="/html-css_87_OsMax/assets/index-e910bd8f.js"></script>
+    <link rel="stylesheet" href="/html-css_87_OsMax/assets/index-bae2c7fe.css">
+  </head>
+  <body id="to-top">
+    <header class="header">
+  <div class="header-box container">
+    <!-- Main header navigation -->
+    <nav class="header-nav" id="change-header-nav">
+      <!-- Go to the main sections  -->
+      <ul class="header-nav-list list">
+        <li class="header-nav-item">
+          <a
+            class="header-nav-link link"
+            href="#howitworks"
+            aria-label="Howitworks section link"
+            >How It Works</a
+          >
+        </li>
+        <li class="header-item">
+          <a
+            class="header-nav-link link"
+            href="#fruits"
+            aria-label="Fruits section link"
+            >Fruits</a
+          >
+        </li>
+        <li class="header-item">
+          <a
+            class="header-nav-link link"
+            href="#contacts"
+            aria-label="Contacts section link"
+            >Contacts</a
+          >
+        </li>
+      </ul>
+
+      <!-- Go to the main page -->
+      <a
+        class="page-logo-link link"
+        href="./index.html"
+        target="_blank"
+        rel="noreferrer noopener"
+        aria-label="Page icon"
+      >
+        <div class="page-logo-icon-box">
+          <svg class="page-logo-icon" width="16" height="16">
+            <use href="/html-css_87_OsMax/assets/header-mobile-icons-3e045a79.svg#icon-page-logo-icon"></use>
+          </svg>
+        </div>
+        <p class="page-name">Fresh harvest box</p>
+      </a>
+    </nav>
+    <div class="header-modal-nav">
+      <!-- Go to the basket (order section now) -->
+      <a class="basket-icon-link link" href="#fruits" aria-label="Basket link">
+        <!-- <svg class="basket-icon" width="24" height="24">
+          <use href="/img/header-mobile-icons.svg#icon-basket-logo-icon"></use>
+        </svg> -->
+      </a>
+      <!-- Open mobile menu button -->
+      <button
+        title="Open mobile menu"
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        id="open-menu"
+      >
+        <svg class="basket-icon" width="24" height="24">
+          <use
+            href="/html-css_87_OsMax/assets/header-mobile-icons-3e045a79.svg#icon-open-mobile-menu-icon"
+          ></use>
+        </svg>
+      </button>
+      <!-- Close mobile menu -->
+      <button
+        title="Close mobile menu"
+        class="close-mobile-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        id="close-menu"
+      >
+        <svg class="menu-container-icon" width="24px" height="24px">
+          <use
+            href="/html-css_87_OsMax/assets/header-mobile-icons-3e045a79.svg#icon-close-mobile-menu-icon"
+          ></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+    <div class="menu-container" id="mobile-menu">
+  <!-- Main mobile menu navigations on other on another part of the page -->
+  <nav class="mobile-lower-nav">
+    <!-- Go to the main sections  -->
+    <ul class="mobile-nav-list list">
+      <li class="mobile-nav-item">
+        <a
+          class="mobile-nav-link link link-howitworks"
+          href="#howitworks"
+          aria-label="How It Works section link"
+          >How It Works</a
+        >
+      </li>
+      <li class="mobile-nav-item">
+        <a
+          class="mobile-nav-link link link-fruits"
+          href="#fruits"
+          aria-label="Fruits section link"
+          >Fruits</a
+        >
+      </li>
+      <li class="mobile-nav-item">
+        <a
+          class="mobile-nav-link link link-contacts"
+          href="#contacts"
+          aria-label="Contacts section link"
+          >Contacts</a
+        >
+      </li>
+      <li class="mobile-nav-item">
+        <!-- Go to the basket (order section now) -->
+        <a
+          class="basket-nav-link link link-basket"
+          href="#fruits"
+          aria-label="Basket link"
+        >
+          <!-- <svg class="mobile-basket-icon" width="24" height="24">
+            <use
+              href="/img/header-mobile-icons.svg#icon-basket-logo-icon"
+            ></use>
+          </svg> -->
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+    <main class="main">
+      <!-- section HIRO -->
+<section class="hero">
+  <div class="container cont-hero">
+    <h1 class="hero-text-h1">
+      fresh harvest box<br />is your 0ne-stop place for a delicious fruit basket
+    </h1>
+    <form action="#fruits">
+      <button name="shop-now" type="submit" class="hero-button">
+        shop now
+      </button>
+    </form>
+    <ul class="sorting">
+      <li class="first-group list">
+        <p class="hero-text">
+          Our expertly curated fruit baskets are made with the freshest, highest
+          quality fruits available. Whether you are looking for a healthy snack
+          or a gift for a loved one, Fresh Harvest Box has got you covered.
+        </p>
+        <div class="fruit-first-card">
+          <h2 class="fruit-header-first">Fruit</h2>
+          <img
+            srcset="/html-css_87_OsMax/assets/watermalone@1x-c66db7f5.webp 1x, /html-css_87_OsMax/assets/watermalone@2x-45bd5264.webp 2x"
+            src="/html-css_87_OsMax/assets/watermalone@1x-c66db7f5.webp"
+            alt="watermelon"
+            width="239"
+            height="172"
+          />
+          <p class="fruit-text">
+            Refreshing and juicy, watermelon is the perfect summer treat and a
+            great source of hydration
+          </p>
+        </div>
+      </li>
+      <li class="second-group list">
+        <ul class="hero-list list">
+          <li class="hero-list-item border-first">
+            <h3 class="hero-list-item-h">&#35;organic</h3>
+          </li>
+          <li class="hero-list-item border-second">
+            <h3 class="hero-list-item-h">&#35;products</h3>
+          </li>
+          <li class="hero-list-item border-third">
+            <h3 class="hero-list-item-h">&#35;basket</h3>
+          </li>
+          <li class="hero-list-item border-four">
+            <h3 class="hero-list-item-h">&#35;fruits</h3>
+          </li>
+        </ul>
+        <div class="fruit-second-card">
+          <h2 class="fruit-header-second">Fruit</h2>
+          <img
+            srcset="/html-css_87_OsMax/assets/basket@1x-61ef2915.webp 1x, /html-css_87_OsMax/assets/basket@2x-67a31fe9.webp 2x"
+            src="/html-css_87_OsMax/assets/basket@1x-61ef2915.webp"
+            alt="watermelon"
+            width="239"
+            height="187"
+          />
+          <p class="fruit-text">
+            Sweet and juicy, strawberries are packed with vitamin C and
+            antioxidants, making them a delicious and healthy snack
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="how-it-works">
+  <div class="container">
+    <!--Заголовок-->
+    <h2 class="section-title-how-it-works for-scroll" id="howitworks">
+      To order your fruit basket, simply follow these easy steps
+    </h2>
+    <!--параграф тексту з описом секції-->
+    <p class="section-description-how-it-works">
+      Our baskets are assembled with care and delivered straight to your
+      doorstep, so you can enjoy the taste of fresh fruit without ever leaving
+      your home. Whether you're looking for a healthy snack or a thoughtful
+      gift, our fruit baskets are the perfect choice.
+    </p>
+    <!--список карток-->
+
+    <ul class="steps-to-order">
+      <li class="steps-to-order-item">
+        <h3 class="first steps">First Step</h3>
+        <p class="steps-text">
+          Just choose the fruit you want to order by clicking on the checkboxes
+          next to it.
+        </p>
+      </li>
+      <li class="steps-to-order-item">
+        <h3 class="second steps">Second Step</h3>
+        <p class="steps-text">Click on the basket and fill out the form.</p>
+      </li>
+      <li class="steps-to-order-item">
+        <h3 class="third steps">Third Step</h3>
+        <p class="steps-text">
+          Sit back and relax! Your fresh fruit basket will be delivered.
+        </p>
+      </li>
+    </ul>
+    <!--Гіф-зображення-->
+    <div class="how-it-works-gif">
+      <img src="/html-css_87_OsMax/assets/fruits-gif-564d0096.gif" alt="fruits-gif" width="860" />
+    </div>
+  </div>
+</section>
+
+
+      <section class="fruits-section for-scroll" id="fruits">
+  <div class="container">
+    <h2 class="fruits-section-header">ORGANIC FRUITS</h2>
+    <p class="fruits-header-content">
+      Our organic fruits are hand-picked from local farms and delivered straight
+      to your doorstep, ensuring that you get the freshest and most nutritious
+      produce possible. We offer a wide selection of organic fruits grown
+      without the use of harmful pesticides or chemicals.
+    </p>
+    <ul class="card-set">
+      <li class="card-1 card">
+        <h3 class="title">Strawberry</h3>
+        <p class="content">Plant</p>
+        <div class="image-wrapper">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <img
+                srcset="/html-css_87_OsMax/assets/strawberries@1x-3a36f8a8.webp 1x, /html-css_87_OsMax/assets/strawberries@2x-6cf332b3.webp 2x"
+                src="/html-css_87_OsMax/assets/strawberries@1x-3a36f8a8.webp"
+                alt="strawberries"
+              />
+            </div>
+            <div class="flip-card-back">
+              <p class="back-text content">
+                Exquisite Ukrainian strawberries captivate with their vibrant
+                red hue, luscious juiciness, and a burst of sweet flavor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="price">100 UAH / kg</span>
+      </li>
+      <li class="card-2 card">
+        <h3 class="title">Banana</h3>
+        <p class="content">Plant</p>
+        <div class="image-wrapper">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <img
+                srcset="/html-css_87_OsMax/assets/banana@1x-e2f1b9de.webp 1x, /html-css_87_OsMax/assets/banana@2x-9047d329.webp 2x"
+                src="/html-css_87_OsMax/assets/banana@1x-e2f1b9de.webp"
+                alt="banana"
+              />
+            </div>
+            <div class="flip-card-back">
+              <p class="back-text content">
+                Exquisite Ukrainian strawberries captivate with their vibrant
+                red hue, luscious juiciness, and a burst of sweet flavor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="price">80 UAH / kg</span>
+      </li>
+      <li class="card-3 card">
+        <h3 class="title">Watermelon</h3>
+        <p class="content">Plant</p>
+        <div class="image-wrapper">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <img
+                srcset="/html-css_87_OsMax/assets/watermelon@1x-a08644b1.webp 1x, /html-css_87_OsMax/assets/watermelon@2x-e0d74a5b.webp 2x"
+                src="/html-css_87_OsMax/assets/watermelon@1x-a08644b1.webp"
+                alt="watermelon"
+              />
+            </div>
+            <div class="flip-card-back">
+              <p class="back-text content">
+                Exquisite Ukrainian strawberries captivate with their vibrant
+                red hue, luscious juiciness, and a burst of sweet flavor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="price">40 UAH / kg</span>
+      </li>
+      <li class="card-4 card">
+        <h3 class="title">Lime</h3>
+        <p class="content">Plant</p>
+        <div class="image-wrapper">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <img
+                srcset="/html-css_87_OsMax/assets/lime@1x-d1fedd31.webp 1x, /html-css_87_OsMax/assets/lime@2x-8c0206de.webp 2x"
+                src="/html-css_87_OsMax/assets/lime@1x-d1fedd31.webp"
+                alt="lime"
+              />
+            </div>
+            <div class="flip-card-back">
+              <p class="back-text content">
+                Exquisite Ukrainian strawberries captivate with their vibrant
+                red hue, luscious juiciness, and a burst of sweet flavor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="price">60 UAH / kg</span>
+      </li>
+      <li class="card-5 card">
+        <h3 class="title">Apple</h3>
+        <p class="content">Plant</p>
+        <div class="image-wrapper">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <img
+                srcset="/html-css_87_OsMax/assets/apple@1x-2b581753.webp 1x, /html-css_87_OsMax/assets/apple@2x-92ada340.webp 2x"
+                src="/html-css_87_OsMax/assets/apple@1x-2b581753.webp"
+                alt="apple"
+              />
+            </div>
+            <div class="flip-card-back">
+              <p class="back-text content">
+                Exquisite Ukrainian strawberries captivate with their vibrant
+                red hue, luscious juiciness, and a burst of sweet flavor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="price">50 UAH / kg</span>
+      </li>
+      <li class="card-6 card">
+        <h3 class="title">Peach</h3>
+        <p class="content">Plant</p>
+        <div class="image-wrapper">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <img
+                srcset="/html-css_87_OsMax/assets/peach@1x-4f33bfab.webp 1x, /html-css_87_OsMax/assets/peach@2x-8abf724f.webp 2x"
+                src="/html-css_87_OsMax/assets/peach@1x-4f33bfab.webp"
+                alt="peach"
+              />
+            </div>
+            <div class="flip-card-back">
+              <p class="back-text content">
+                Exquisite Ukrainian strawberries captivate with their vibrant
+                red hue, luscious juiciness, and a burst of sweet flavor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="price">80 UAH / kg</span>
+      </li>
+      <li class="card-7 card">
+        <h3 class="title">Plums</h3>
+        <p class="content">Plant</p>
+        <div class="image-wrapper">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <img
+                srcset="/html-css_87_OsMax/assets/plum@1x-2711ffd7.webp 1x, /html-css_87_OsMax/assets/plum@2x-e0db3e4d.webp 2x"
+                src="/html-css_87_OsMax/assets/plum@1x-2711ffd7.webp"
+                alt="plum"
+              />
+            </div>
+            <div class="flip-card-back">
+              <p class="back-text content">
+                Exquisite Ukrainian strawberries captivate with their vibrant
+                red hue, luscious juiciness, and a burst of sweet flavor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="price">40 UAH / kg</span>
+      </li>
+      <li class="card-8 card">
+        <h3 class="title">Orange</h3>
+        <p class="content">Plant</p>
+        <div class="image-wrapper">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <img
+                srcset="/html-css_87_OsMax/assets/orange@1x-48d70753.webp 1x, /html-css_87_OsMax/assets/orange@2x-a3c601b9.webp 2x"
+                src="/html-css_87_OsMax/assets/orange@1x-48d70753.webp"
+                alt="orange"
+              />
+            </div>
+            <div class="flip-card-back">
+              <p class="back-text content">
+                Exquisite Ukrainian strawberries captivate with their vibrant
+                red hue, luscious juiciness, and a burst of sweet flavor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="price">60 UAH / kg</span>
+      </li>
+      <li class="card-9 card">
+        <h3 class="title">Kiwi</h3>
+        <p class="content">Plant</p>
+        <div class="image-wrapper">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <img
+                srcset="/html-css_87_OsMax/assets/kiwi@1x-b24a4d8d.webp 1x, /html-css_87_OsMax/assets/kiwi@2x-44987030.webp 2x"
+                src="/html-css_87_OsMax/assets/kiwi@1x-b24a4d8d.webp"
+                alt="kiwi"
+              />
+            </div>
+            <div class="flip-card-back">
+              <p class="back-text content">
+                Exquisite Ukrainian strawberries captivate with their vibrant
+                red hue, luscious juiciness, and a burst of sweet flavor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="price">90 UAH / kg</span>
+      </li>
+    </ul>
+    <!-- КНОПКА ДЛЯ МОДАЛЬНОГО ВІКНА -->
+    <!-- НЕ ВИДАЛЯЙ!!!!! -->
+    <button name="order-btn" type="button" class="order-button" id="order-open">
+      <svg class="icon-arrow" width="14" height="14">
+        <use href="/html-css_87_OsMax/assets/order-sprite-68adf80d.svg#icon-arrow"></use>
+      </svg>
+      <span class="order-btn-txt">ORDER</span>
+    </button>
+  </div>
+</section>
+
+      <!-- Contacts -->
+<section class="contacts">
+  <div class="container contacts-container">
+    <h2 class="contacts-title for-scroll" id="contacts">
+      Fresh Harvest Box has got you covered
+    </h2>
+    <ul class="contacts-img">
+      <li class="m1">
+        <picture class="pic-in-cont">
+          <source
+            srcset="/html-css_87_OsMax/assets/melonDesc@2x-387eccf2.jpg 1584w, /html-css_87_OsMax/assets/melonDesc-8dff919a.jpg 792w"
+            media="(min-width: 1280px)"
+            sizes="792px"
+          />
+          <source
+            srcset="/html-css_87_OsMax/assets/melonTab@2x-2e18e2da.jpg 688w, /html-css_87_OsMax/assets/melonTab-eee89cc8.jpg 344w"
+            media="(min-width: 768px)"
+            sizes="344px"
+          />
+          <source
+            srcset="/html-css_87_OsMax/assets/melonTab@2x-2e18e2da.jpg 670w, /html-css_87_OsMax/assets/melonTab-eee89cc8.jpg 335w"
+            media="(max-width: 767px)"
+            sizes="335px"
+          />
+          <img src="/html-css_87_OsMax/assets/melon-ccb2b5d3.jpg" alt="" />
+        </picture>
+      </li>
+      <li class="m2">
+        <img
+          class="content-img bilberry"
+          srcset="/html-css_87_OsMax/assets/bilberry@1x-34182ba4.jpg 1x, /html-css_87_OsMax/assets/bilberry@2x-8f06bcf6.jpg 2x"
+          src="/html-css_87_OsMax/assets/bilberry@1x-f17829c6.jpg"
+          alt="bilberry"
+        />
+      </li>
+    </ul>
+
+    <p class="contacts-info">
+      Our boxes are packed with delicious, nutritious fruits and vegetables,
+      perfect for anyone looking to eat healthier or support local farmers.
+      Order your box today and start enjoying the best that nature has to offer!
+    </p>
+    <div class="container-form">
+      <form class="contacts-form" name="contacts-form">
+        <input
+          class="contacts-email"
+          required
+          pattern="^((([0-9A-Za-z]{1}[-0-9A-z\.]{0,30}[0-9A-Za-z]?)|([0-9А-Яа-я]{1}[-0-9А-я\.]{0,30}[0-9А-Яа-я]?))@([-A-Za-z]{1,}\.){1,}[-A-Za-z]{2,})$"
+          type="email"
+          name="user-email"
+          placeholder="Enter email..."
+          autocomplete="off"
+        />
+        <button
+          name="send-btn"
+          class="contacts-btn"
+          type="button"
+          id="send-open"
+        >
+          <span class="contacts-btn-text"> Send</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="footer-div container">
+    <div class="footer-thumb-pic">
+      <img
+        srcset="/html-css_87_OsMax/assets/banana-girl1x-335w-608b09cb.jpg 335w, /html-css_87_OsMax/assets/banana-girl1x-349w-9f572ec4.jpg 349w, /html-css_87_OsMax/assets/banana-girl2x-670w-5c44b179.jpg 670w, /html-css_87_OsMax/assets/banana-girl2x-698w-4bfa5515.jpg 698w"
+        sizes="(min-width: 1280px) 349px, (min-width: 768px) 349px, (min-width: 375px) 335px, 100vw"
+        src="/html-css_87_OsMax/assets/banana-girl1x-335w-608b09cb.jpg"
+        alt="Girl with banana"
+        loading="lazy"
+      />
+    </div>
+
+    <a class="site-logo" href="index.html">fresh harvest box</a>
+
+    <div class="footer-nav-list">
+      <ul class="footer-list">
+        <li><a class="footer-link" href="#howitworks">How It Works</a></li>
+        <li><a class="footer-link" href="#fruits">Fruits</a></li>
+        <li><a class="footer-link" href="#contacts">Contacts</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <ul class="footer-icon-list">
+        <li class="footer-item">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="footer-link-icon"
+            aria-label="Open facebook"
+          >
+            <svg class="footer-icon-pic" width="28" height="28">
+              <use href="/html-css_87_OsMax/assets/sprite-b0029f50.svg#icon-facebook-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-item">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="footer-link-icon"
+            aria-label="Open instagram"
+          >
+            <svg class="footer-icon-pic" width="28" height="28">
+              <use href="/html-css_87_OsMax/assets/sprite-b0029f50.svg#icon-instagram-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-item">
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="footer-link-icon"
+            aria-label="Open youtube"
+          >
+            <svg class="footer-icon-pic" width="28" height="28">
+              <use href="/html-css_87_OsMax/assets/sprite-b0029f50.svg#icon-youtube-icon"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <address class="address">
+        <ul class="">
+          <li>
+            <a class="address-phone" href="tel:+380684439426"
+              >+380 (68) 443-94-26
+            </a>
+          </li>
+          <li class="location-flex">
+            <a
+              class="address-location"
+              href="https://goo.gl/maps/KuhU1CSR2gmE5KHi6"
+              target="_blank"
+              rel="noreferrer noopener"
+              >1678 S. Pioneer Road Salt Lake City UT 84104
+            </a>
+          </li>
+        </ul>
+      </address>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- оформлення бекдропа і модального вікна -->
+
+<div class="backdrop is-hidden" id="backdrop">
+  <div class="order-modal is-hidden" id="modal-order">
+    <h3 class="order-text">YOUR ORDER</h3>
+    <!-- кнопка-крестик -->
+    <button title="Close order button" class="order-btn-close" id="order-close">
+      <svg class="icon-modal" width="28" height="28">
+        <use href="/html-css_87_OsMax/assets/order-sprite-68adf80d.svg#icon-close-red"></use>
+      </svg>
+    </button>
+
+    <!-- фото input с корзинками -->
+    <form>
+      <ul class="order-baskets">
+        <li class="order-item">
+          <div class="text-order">
+            <h3 class="order-name-basket">Strawberry Basket</h3>
+            <p class="order-description">Plant</p>
+          </div>
+          <label class="order-product">
+            <input
+              class="order-input-check"
+              type="checkbox"
+              name="checkbox-basket"
+              value="music"
+            />
+            <span class="order-check"> </span>
+            <img
+              class="order-img-basket"
+              srcset="/html-css_87_OsMax/assets/basket1@1x-ce8b3095.webp 1x, /html-css_87_OsMax/assets/basket1@2x-86c26328.webp 2x"
+              src="/html-css_87_OsMax/assets/basket1@1x-ce8b3095.webp"
+              alt="basket with strawberries"
+            />
+          </label>
+        </li>
+        <li class="order-item">
+          <div class="text-order">
+            <h3 class="order-name-basket">Strawberry Basket</h3>
+            <p class="order-description">Plant</p>
+          </div>
+          <label class="order-product">
+            <input
+              class="order-input-check"
+              type="checkbox"
+              name="hobby"
+              value="music"
+            />
+            <span class="order-check"> </span>
+            <img
+              class="order-img-basket"
+              srcset="/html-css_87_OsMax/assets/basket2@1x-fe752848.webp 1x, /html-css_87_OsMax/assets/basket2@2x-0d217b54.webp 2x"
+              src="/html-css_87_OsMax/assets/basket2@1x-fe752848.webp"
+              alt="basket of apples and oranges"
+            />
+          </label>
+        </li>
+        <li class="order-item">
+          <div class="text-order">
+            <h3 class="order-name-basket">Strawberry Basket</h3>
+            <p class="order-description">Plant</p>
+          </div>
+          <label class="order-product">
+            <input
+              class="order-input-check"
+              type="checkbox"
+              name="hobby"
+              value="music"
+            />
+            <span class="order-check"> </span>
+            <img
+              class="order-img-basket"
+              srcset="/html-css_87_OsMax/assets/basket3@1x-7ad7739a.webp 1x, /html-css_87_OsMax/assets/basket3@2x-e625b7f6.webp 2x"
+              src="/html-css_87_OsMax/assets/basket3@1x-7ad7739a.webp"
+              alt="basket with berries"
+            />
+          </label>
+        </li>
+      </ul>
+
+      <!-- форма заполнения -->
+      <div class="order-inputs">
+        <label>
+          <input
+            class="order-info-input"
+            type="text"
+            name="username"
+            required
+            pattern="^[A-Z]{1}[a-z]{1,14} [A-Z]{1}[a-z]{1,14}$)|(^[А-Я]{1}[а-я]{1,14} [А-Я]{1}[а-я]{1,14}$"
+            title="Username must be two words separated by space."
+            placeholder="Enter full name..."
+          />
+        </label>
+        <label>
+          <input
+            class="order-info-input"
+            type="email"
+            name="email"
+            required
+            pattern="^((([0-9A-Za-z]{1}[-0-9A-z\.]{0,30}[0-9A-Za-z]?)|([0-9А-Яа-я]{1}[-0-9А-я\.]{0,30}[0-9А-Яа-я]?))@([-A-Za-z]{1,}\.){1,}[-A-Za-z]{2,})$"
+            title="Email entered incorrectly!"
+            placeholder="Enter email..."
+          />
+        </label>
+        <label>
+          <input
+            class="order-info-input"
+            type="text"
+            name="card"
+            required
+            pattern="[0-9]{13,16}"
+            title="Card number must contain 13 to 16 digits!"
+            placeholder="Enter card.."
+          />
+        </label>
+
+        <label>
+          <textarea
+            class="order-textarea"
+            name="feedback"
+            rows="5"
+            placeholder="Enter comments..."
+          ></textarea>
+        </label>
+        <!-- кнопка отправить -->
+        <button name="submit" class="order-submit" type="submit">
+          <span class="order-btn-text">Submit</span>
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <!-- модальне вікно send  is-hidden-->
+  <div class="send is-hidden" id="modal-send">
+    <!-- кнопка-крестик -->
+    <button title="Send close button" class="send-btn-close" id="send-close">
+      <svg class="icon-send-modal" width="24" height="24">
+        <use href="/html-css_87_OsMax/assets/order-sprite-68adf80d.svg#icon-close-white"></use>
+      </svg>
+    </button>
+
+    <img
+      class="send-img"
+      srcset="/html-css_87_OsMax/assets/raspberries@1px-a78f17bf.webp 1x, /html-css_87_OsMax/assets/raspberries@2px-9553c4dd.webp 2x"
+      src="/html-css_87_OsMax/assets/raspberries@1px-a78f17bf.webp"
+      alt="basket with strawberries"
+    />
+
+    <h3 class="send-header">THANK YOU</h3>
+
+    <p class="send-text">
+      Thank you for your order! Our team is preparing your box with fresh,
+      delicious fruits and vegetables, and we'll deliver it straight to your
+      doorstep. We appreciate your business and look forward to providing you
+      with the best possible experience!
+    </p>
+  </div>
+</div>
+
+
+    <!-- Loads the specified .html file -->
+    <div class="go-top"></div>
+
+    
+  </body>
+</html>
